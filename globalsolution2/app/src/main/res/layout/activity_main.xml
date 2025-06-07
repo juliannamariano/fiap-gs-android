@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tituloApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radar de Eventos Extremos"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="12dp" />
+
+
+    <EditText
+        android:id="@+id/editLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Local (Cidade/Bairro)" />
+
+
+    <EditText
+        android:id="@+id/editTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo de Evento (chuva, seca...)" />
+
+
+    <EditText
+        android:id="@+id/editImpacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Grau de Impacto (leve, moderado, severo)" />
+
+
+    <EditText
+        android:id="@+id/editData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data do Evento (ex: 01/06/2025)" />
+
+
+    <EditText
+        android:id="@+id/editPessoas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nº de Pessoas Afetadas"
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/btnIncluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incluir"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnIdentificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Identificação dos Alunos"
+        android:layout_marginTop="8dp"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerEventos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
