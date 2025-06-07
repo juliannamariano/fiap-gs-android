@@ -15,13 +15,6 @@ Professor: Ewerton Carreira
 - Exclusão individual de itens
 - Navegação para tela de identificação dos alunos
 
-## 🖼️ Prints do aplicativo
-
-### Tela principal
-![print-tela-principal](prints/tela_principal.png)
-
-### Tela de identificação
-![print-identificacao](prints/tela_identificacao.png)
 
 ## 🔧 Tecnologias utilizadas
 - Android Studio
